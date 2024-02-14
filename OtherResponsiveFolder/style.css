@@ -1,0 +1,28 @@
+.FirstPage {
+    background: linear-gradient(184deg, #ffccd7, #f0f0f0);
+    background-size: 400% 400%;
+    -webkit-animation: FirstPage 30s ease infinite;
+    -moz-animation: FirstPage 30s ease infinite;
+    -o-animation: FirstPage 30s ease infinite;
+    animation: FirstPage 30s ease infinite;
+}
+@-webkit-keyframes FirstPage {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes FirstPage {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes FirstPage {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes FirstPage {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
