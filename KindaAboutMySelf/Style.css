@@ -1,0 +1,50 @@
+.firsy{
+    background-image: url(./Images/First-Page.png);
+    height: 100vh;
+}
+.flexx{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.lol{
+    font-family: cursive;
+}
+.v44{
+    border-radius: 50%;
+}
+.Skill_Page{
+    background: linear-gradient(181deg, #ddf7f0, #ffffff);
+    background-size: 400% 400%;
+    -webkit-animation: Skill_Page 30s ease infinite;
+    -moz-animation: Skill_Page 30s ease infinite;
+    -o-animation: Skill_Page 30s ease infinite;
+    animation: Skill_Page 30s ease infinite;
+}
+@-webkit-keyframes Skill_Page {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@-moz-keyframes Skill_Page {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@-o-keyframes Skill_Page {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@keyframes Skill_Page {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+.Footer{
+    background-image: url(./Images/Footer.png);
+    height: 73px;
+}
